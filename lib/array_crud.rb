@@ -7,8 +7,8 @@ letters  = ["a", "b", "c", "d"]
 end
 
 def add_element_to_end_of_array(array, element)
-letters  = ["a", "b", "c", "d"]
-  element << "arrays!"
+letters  = ["a", "b"]
+  letters << "c"
 end
 
 def add_element_to_start_of_array(array, element)
